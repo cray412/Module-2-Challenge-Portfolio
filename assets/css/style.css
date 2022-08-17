@@ -11,6 +11,7 @@
 
 
 * {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -22,7 +23,6 @@ body {
 
 header {
     padding: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* background-image: url(/assets/images/header-beach.jpg); */
     background-size: cover;
     background-position: bottom;
@@ -38,7 +38,6 @@ nav {
     padding-top: 10px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
 }
 
@@ -50,7 +49,6 @@ header nav ul li {
     display: inline-block;
     margin-left: 5px;
     margin-right: 5px;
-    ;
 }
 
 h1 {
@@ -72,8 +70,8 @@ main {
     display: block;
 }
 
-li {
-    list-style-type: none;
+section {
+    width: 100%;
 }
 
 p {
@@ -114,12 +112,28 @@ p {
     min-width: 170px;
 }
 
-/* .bio {
-    margin: auto;
-    width: 60%;
-    border: 3px solid #73AD21;
-    padding: 10px;
-} */
+.contact-info {
+}
+
+.contact-info ul {
+    list-style-type: none;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: baseline;
+}
+
+.contact-info a {
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--brown);
+}
+
+.contact-info ul li p{
+    font-size: 20px;
+    color: var(--brown);
+}
+
+
 
 @media screen and (max-width: 950px) {
     header {
@@ -149,7 +163,7 @@ p {
     }
 
     .cell {
-        background-color: var(--bluegray) ;        
+        background-color: var(--bluegray);
     }
 }
 
@@ -160,6 +174,6 @@ p {
         justify-content: center;
         max-width: 100%;
         min-width: fit-content;
-        background-color: var(--bluegray) ;
+        background-color: var(--bluegray);
     }
 }
