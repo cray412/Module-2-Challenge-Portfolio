@@ -169,7 +169,6 @@ section {
         align-items: center;
         justify-content: center;
         max-width: 100%;
-        min-width: fit-content;
     }
 
     .content p{
