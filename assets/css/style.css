@@ -147,11 +147,9 @@ section {
 
 @media screen and (max-width: 950px) {
     header {
-        width: 100%;
         padding: 0px;
         text-align: center;
         padding-top: 15px;
-        background-image: none;
     }
 
     h1 {
@@ -171,7 +169,7 @@ section {
         align-items: center;
         justify-content: center;
         max-width: 100%;
-        min-width: 440px;
+        min-width: fit-content;
     }
 
     .content p{
@@ -190,5 +188,15 @@ section {
         display: flex;
         justify-content: center;
     }
+/* 
+    @media screen and (max-width: 412px) {
+        header {
+            width: 100%;
+            padding: 0px;
+            text-align: center;
+            padding-top: 15px;
+        }
+    
+    } */
 
 }
