@@ -23,7 +23,6 @@ body {
 
 header {
     padding: 20px;
-    /* background-image: url(/assets/images/header-beach.jpg); */
     background-size: cover;
     background-position: bottom;
     background-color: var(--green);
@@ -61,7 +60,7 @@ h2 {
     display: block;
     color: var(--white);
     font-size: 30px;
-    text-shadow: 3px 3px 3px #605747;
+    text-shadow: 3px 3px 5px #605747;
 }
 
 main {
@@ -77,7 +76,7 @@ section {
 p {
     display: block;
     font-weight: 200;
-    /* color: white; */
+    color: var(--brown);
 
 }
 
@@ -85,7 +84,7 @@ p {
     display: inline-flex;
     width: 100%;
     margin-top: 20px;
-    padding: 50px;
+    padding: 30px;
     /* border-radius: 15px; */
     box-shadow: 3px 3px 8px;
     background-color: var(--beige);
@@ -107,8 +106,16 @@ p {
 }
 
 .cell h2 {
-    margin-left: 50px;
+    margin-left: 30px;
     min-width: 170px;
+}
+
+.work-info a{
+    padding: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .contact-info ul {
@@ -130,6 +137,7 @@ p {
     font-size: 25px;
     color: var(--brown);
     display: flex;
+    flex-wrap: wrap;
     align-items: baseline;
 }
 
@@ -160,7 +168,15 @@ p {
         padding: 5px;
     }
 
-}
+    .cell {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+        min-width: 440px;
+    }
+
+/* }
 
 @media screen and (max-width: 650px) {
     .cell {
@@ -168,6 +184,6 @@ p {
         align-items: center;
         justify-content: center;
         max-width: 100%;
-        min-width: fit-content;
+        min-width: 440px;
     }
-}
+} */
