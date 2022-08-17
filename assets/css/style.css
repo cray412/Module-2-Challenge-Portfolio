@@ -146,6 +146,7 @@ section {
 }
 
 @media screen and (max-width: 950px) {
+
     header {
         padding: 0px;
         text-align: center;
@@ -187,3 +188,10 @@ section {
         display: flex;
         justify-content: center;
     }
+
+    @media screen and (max-width: 450px) {
+
+        main {
+            padding: 0px;
+        }
+    }    
