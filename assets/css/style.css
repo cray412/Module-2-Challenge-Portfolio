@@ -85,7 +85,6 @@ p {
     width: 100%;
     margin-top: 20px;
     padding: 30px;
-    /* border-radius: 15px; */
     box-shadow: 3px 3px 8px;
     background-color: var(--beige);
 }
@@ -175,15 +174,4 @@ p {
         max-width: 100%;
         min-width: 440px;
     }
-
-/* }
-
-@media screen and (max-width: 650px) {
-    .cell {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        max-width: 100%;
-        min-width: 440px;
-    }
-} */
+}
