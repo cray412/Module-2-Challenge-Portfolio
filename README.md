@@ -22,7 +22,7 @@ This web app has been created from scratch and includes the following:
 
 ![Christopher Ray Portfolio](./assets/images/Portfolio_Screenshot.png)
 
-[Christopher Ray Portfolio](https://cray412.github.io/Module-2-Challenge-Portfolio/)
+[Christopher Ray Portfolio](https://cray412.github.io/Portfolio/)
 
 ## Credits
 
